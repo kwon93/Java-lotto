@@ -1,6 +1,7 @@
 package domain;
 
-/**
+
+/*
  * 당첨 번호를 담당하는 객체
  */
 public class WinningLotto {
@@ -10,6 +11,8 @@ public class WinningLotto {
     public WinningLotto(Lotto lotto, int bonusNo) {
         this.lotto = lotto;
         this.bonusNo = bonusNo;
+
+
     }
 
     public Rank match(Lotto userLotto) {
